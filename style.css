@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    font-family: "Ojuju", sans-serif;
+    
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+    color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+img {
+    height: 400px;
+    box-shadow: 0px 0px 10px 0px #fff;
+}
+
